@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 1rem;
+    background-color: #93B9DD;
+}
+
+.logo a{
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.ven{
+    padding: 0.5rem;
+    background-color: #fff;
+}
+
+.hero{
+    background-color: #c3eefa;
+}
+
+.hero-info {
+    padding: 2rem;
+    width: 100%;
+}
+
+.hero-info h3 {
+    font-size: 2rem;
+}
+
+.hero-info p {
+    margin: 1rem 0;
+}
+
+.hero-img img {
+    padding: 2rem;
+    width: 100%;
+}
+
+.blog-item h2{
+    margin: 1rem 0;
+}
+
+.blog-item img{
+    width: 100%;
+}
+
+.blog-item h4{
+    margin-top: 1rem;
+}
+
+
+
+.blog-item iframe{
+    width: 100%;
+}
+
+.footer-top{
+    margin-top:2rem ;
+    padding: 3rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-top-item-con{
+    display: flex;
+    margin: 1rem 0;
+}
+
+.footer-top-item-con .date{
+    background-color: #fff;
+    color: #333;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.footer-bottom{
+    background-color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+@media (min-width: 500px){
+
+    .container {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    
+    nav {
+        box-shadow: 0 1rem 1rem rgb(0, 0, 0, .1);
+        width: 100rem;
+        height: 7rem;
+        background-color: #588ecc;
+        position: fixed
+    }
+    
+    .nav-con {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .logo h3{
+        margin-top:0.5rem ;
+        font-size: 3rem;
+        color: #000000;
+        text-decoration:none;
+        font-family:'Courier New', Courier, monospace
+    }
+    
+    .menu {
+        
+        display: flex;
+        list-style: none;
+    }
+    
+    .menu li {
+        margin: 2rem 1rem;
+    }
+
+    .menu li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.25rem;
+    }
+
+    nav ul  li a:hover{
+        background-color: #98bfec;
+        color: #000;
+        transform: all .3s;
+        padding: 10px 20px;
+        border-radius: 13%;
+    }
+    
+    .hero{
+        background-image: linear-gradient(#8badd3, #93b9dd, #c3eefa);
+    }
+    
+    .hero-con {
+        display: flex;
+        background-image: linear-gradient(#8badd3, #93b9dd, #c3eefa);
+    }
+    
+    .hero-info {
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        
+    }
+    
+    .hero-info h5 {
+        font-size: 2rem;
+        margin-top: 7rem;
+    }
+    
+    .hero-info p {
+        margin: 1rem 0;
+    }
+
+    .blog{
+        background-color: #c3eefa;
+    }
+
+    .container h2{
+        margin-bottom: 3rem;
+    }
+    
+    .blog-con{
+        background-color: #c3eefa;
+    }
+
+    .blog-item-one{
+        background-color: #fff;
+        border-radius: 15%;
+        margin-bottom: 2rem;
+    }
+
+    .blog-item-one button{
+        size: 300%;
+    }
+
+    .item-con{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+
+    .itemone{
+        margin-bottom: 3rem;
+        margin-left: 10rem;
+    }
+
+    .name{
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+
+    }
+
+    .name input{
+        margin-top: 1rem;
+    }
+
+    .next{
+        margin-bottom: 5rem;
+        border-radius: 15%;
+        background-color: #588ecc;
+        color: #ffffff;
+    }
+
+    .footer-top{
+        margin-top:2rem ;
+        padding: 3rem;
+        background-color: #333;
+        color: #fff;
+    }
+    
+    .footer-top-con{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 2rem;
+    }
+    
+    .footer-top-item-con{
+        display: flex;
+        margin: 1rem 0;
+    }
+    
+    .footer-top-item-con .date{
+        background-color: #fff;
+        color: #333;
+        padding: 0.5rem;
+        border-radius: 5px;
+        text-align: center;
+        margin-right: 10px;
+    }
+    
+    .footer-top-item:nth-child(2) h4{
+        margin-bottom: 1rem;
+    }
+    
+    .footer-top-item:nth-child(3) h4{
+        margin-bottom: 1rem;
+    }
+    
+    .footer-bottom{
+        background-color: #fff;
+        padding: 1rem;
+        text-align: center;
+    }
+    
+}
